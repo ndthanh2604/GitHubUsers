@@ -7,7 +7,13 @@
 
 import Foundation
 import RxSwift
+import RxCocoa
 
 struct UserListVM {
+    let repo: UserRepoType
+    var users: [User] = []
     
+    init(repo: UserRepoType) {
+        self.repo = repo
+    }
 }

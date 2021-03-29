@@ -27,6 +27,7 @@
 		796C74172612472F00327BF1 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796C74102612472E00327BF1 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		796C74182612472F00327BF1 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C74112612472E00327BF1 /* RxCocoa.xcframework */; };
 		796C74192612472F00327BF1 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796C74112612472E00327BF1 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		797C1D2C26124E0F0066CC32 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C1D2B26124E0F0066CC32 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		796C740F2612472E00327BF1 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 		796C74102612472E00327BF1 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		796C74112612472E00327BF1 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		797C1D2B26124E0F0066CC32 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 		796C73F8261242FF00327BF1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				797C1D2B26124E0F0066CC32 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				796C73ED261242CE00327BF1 /* UserRepo.swift in Sources */,
 				796C73E82612416600327BF1 /* UserListViewCell.swift in Sources */,
 				796C73F2261242DF00327BF1 /* UserListVM.swift in Sources */,
+				797C1D2C26124E0F0066CC32 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

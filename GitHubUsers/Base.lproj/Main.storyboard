@@ -61,6 +61,11 @@
                                                 <constraint firstItem="yYh-wr-tzN" firstAttribute="leading" secondItem="8ml-qA-uvR" secondAttribute="trailing" constant="20" id="nqz-XD-juc"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="avatarImageView" destination="8ml-qA-uvR" id="qqX-zC-BgA"/>
+                                            <outlet property="htmlUrlLabel" destination="Rz8-GU-n3i" id="MW2-kq-hag"/>
+                                            <outlet property="loginLabel" destination="aXl-zO-iCF" id="XZj-CA-OWT"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

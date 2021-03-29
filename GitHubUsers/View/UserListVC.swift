@@ -8,12 +8,15 @@
 import UIKit
 
 class UserListVC: UIViewController {
+    let vm: UserListVM = .init(repo: UserRepo())
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
+    deinit {
+        print("deinit UserListVC")
+    }
 
 }
 
