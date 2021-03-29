@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79133BA92614F346009FE316 /* Kingfisher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79133BA82614F346009FE316 /* Kingfisher.xcframework */; };
+		79133BAA2614F346009FE316 /* Kingfisher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79133BA82614F346009FE316 /* Kingfisher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79133BF9261775E5009FE316 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79133BF8261775E5009FE316 /* UserProfileVC.swift */; };
+		79133BFF26177C5B009FE316 /* UserProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79133BFE26177C5B009FE316 /* UserProfileVM.swift */; };
+		79133C0326177EE6009FE316 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79133C0226177EE6009FE316 /* Profile.swift */; };
+		79133C2826178BF7009FE316 /* AboutViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79133C2726178BF7009FE316 /* AboutViewCell.swift */; };
+		79133C2E261794FE009FE316 /* StatsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79133C2D261794FE009FE316 /* StatsViewCell.swift */; };
+		79133C332617A3D9009FE316 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79133C322617A3D9009FE316 /* UIImageView+Extension.swift */; };
+		79133C3B2617B13E009FE316 /* UserListDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79133C392617B13E009FE316 /* UserListDataModel.xcdatamodeld */; };
+		791E79E22613976400823815 /* RxDataSources.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791E79E12613976400823815 /* RxDataSources.xcframework */; };
+		791E79E32613976400823815 /* RxDataSources.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 791E79E12613976400823815 /* RxDataSources.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		791E7A062613A08400823815 /* Differentiator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791E7A052613A08400823815 /* Differentiator.xcframework */; };
+		791E7A072613A08400823815 /* Differentiator.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 791E7A052613A08400823815 /* Differentiator.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		796C73AF26123AB300327BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73AE26123AB300327BF1 /* AppDelegate.swift */; };
 		796C73B126123AB300327BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73B026123AB300327BF1 /* SceneDelegate.swift */; };
 		796C73B326123AB300327BF1 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73B226123AB300327BF1 /* UserListVC.swift */; };
@@ -15,7 +28,7 @@
 		796C73BB26123AB500327BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796C73B926123AB500327BF1 /* LaunchScreen.storyboard */; };
 		796C73C626123AB600327BF1 /* GitHubUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73C526123AB600327BF1 /* GitHubUsersTests.swift */; };
 		796C73D126123AB600327BF1 /* GitHubUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73D026123AB600327BF1 /* GitHubUsersUITests.swift */; };
-		796C73E82612416600327BF1 /* UserListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73E72612416600327BF1 /* UserListViewCell.swift */; };
+		796C73E82612416600327BF1 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73E72612416600327BF1 /* UserViewCell.swift */; };
 		796C73ED261242CE00327BF1 /* UserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73EC261242CE00327BF1 /* UserRepo.swift */; };
 		796C73F2261242DF00327BF1 /* UserListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C73F1261242DF00327BF1 /* UserListVM.swift */; };
 		796C7409261244AE00327BF1 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 796C7408261244AE00327BF1 /* Cartfile.resolved */; };
@@ -27,6 +40,7 @@
 		796C74172612472F00327BF1 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796C74102612472E00327BF1 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		796C74182612472F00327BF1 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C74112612472E00327BF1 /* RxCocoa.xcframework */; };
 		796C74192612472F00327BF1 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 796C74112612472E00327BF1 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		797C1D2C26124E0F0066CC32 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C1D2B26124E0F0066CC32 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +68,12 @@
 			dstSubfolderSpec = 10;
 			files = (
 				796C74172612472F00327BF1 /* RxSwift.xcframework in Embed Frameworks */,
+				791E7A072613A08400823815 /* Differentiator.xcframework in Embed Frameworks */,
 				796C74192612472F00327BF1 /* RxCocoa.xcframework in Embed Frameworks */,
 				796C74132612472F00327BF1 /* RxBlocking.xcframework in Embed Frameworks */,
+				791E79E32613976400823815 /* RxDataSources.xcframework in Embed Frameworks */,
 				796C74152612472F00327BF1 /* RxRelay.xcframework in Embed Frameworks */,
+				79133BAA2614F346009FE316 /* Kingfisher.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +81,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		79133BA82614F346009FE316 /* Kingfisher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Kingfisher.xcframework; path = Carthage/Build/Kingfisher.xcframework; sourceTree = "<group>"; };
+		79133BF8261775E5009FE316 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		79133BFE26177C5B009FE316 /* UserProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVM.swift; sourceTree = "<group>"; };
+		79133C0226177EE6009FE316 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		79133C2726178BF7009FE316 /* AboutViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewCell.swift; sourceTree = "<group>"; };
+		79133C2D261794FE009FE316 /* StatsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewCell.swift; sourceTree = "<group>"; };
+		79133C322617A3D9009FE316 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		79133C3A2617B13E009FE316 /* UserListDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserListDataModel.xcdatamodel; sourceTree = "<group>"; };
+		791E79E12613976400823815 /* RxDataSources.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxDataSources.xcframework; path = Carthage/Build/RxDataSources.xcframework; sourceTree = "<group>"; };
+		791E7A052613A08400823815 /* Differentiator.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Differentiator.xcframework; path = Carthage/Build/Differentiator.xcframework; sourceTree = "<group>"; };
 		796C73AB26123AB300327BF1 /* GitHubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796C73AE26123AB300327BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		796C73B026123AB300327BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +105,7 @@
 		796C73CC26123AB600327BF1 /* GitHubUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		796C73D026123AB600327BF1 /* GitHubUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUsersUITests.swift; sourceTree = "<group>"; };
 		796C73D226123AB600327BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		796C73E72612416600327BF1 /* UserListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewCell.swift; sourceTree = "<group>"; };
+		796C73E72612416600327BF1 /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
 		796C73EC261242CE00327BF1 /* UserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepo.swift; sourceTree = "<group>"; };
 		796C73F1261242DF00327BF1 /* UserListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVM.swift; sourceTree = "<group>"; };
 		796C74002612443F00327BF1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
@@ -87,6 +114,7 @@
 		796C740F2612472E00327BF1 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 		796C74102612472E00327BF1 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		796C74112612472E00327BF1 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		797C1D2B26124E0F0066CC32 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +123,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				796C74162612472F00327BF1 /* RxSwift.xcframework in Frameworks */,
+				791E7A062613A08400823815 /* Differentiator.xcframework in Frameworks */,
 				796C74182612472F00327BF1 /* RxCocoa.xcframework in Frameworks */,
 				796C74122612472E00327BF1 /* RxBlocking.xcframework in Frameworks */,
+				791E79E22613976400823815 /* RxDataSources.xcframework in Frameworks */,
 				796C74142612472F00327BF1 /* RxRelay.xcframework in Frameworks */,
+				79133BA92614F346009FE316 /* Kingfisher.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +149,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79133C312617A3C1009FE316 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				79133C322617A3D9009FE316 /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		79133C382617B114009FE316 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				79133C392617B13E009FE316 /* UserListDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		796C73A226123AB300327BF1 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +197,8 @@
 				796C73F6261242E200327BF1 /* View */,
 				796C73F7261242F300327BF1 /* ViewModel */,
 				796C73FC2612433600327BF1 /* Repository */,
+				79133C312617A3C1009FE316 /* Extension */,
+				79133C382617B114009FE316 /* CoreData */,
 				796C73B426123AB300327BF1 /* Main.storyboard */,
 				796C73B726123AB500327BF1 /* Assets.xcassets */,
 				796C73B926123AB500327BF1 /* LaunchScreen.storyboard */,
@@ -180,7 +229,10 @@
 			isa = PBXGroup;
 			children = (
 				796C73B226123AB300327BF1 /* UserListVC.swift */,
-				796C73E72612416600327BF1 /* UserListViewCell.swift */,
+				79133BF8261775E5009FE316 /* UserProfileVC.swift */,
+				796C73E72612416600327BF1 /* UserViewCell.swift */,
+				79133C2726178BF7009FE316 /* AboutViewCell.swift */,
+				79133C2D261794FE009FE316 /* StatsViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				796C73F1261242DF00327BF1 /* UserListVM.swift */,
+				79133BFE26177C5B009FE316 /* UserProfileVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -196,6 +249,8 @@
 		796C73F8261242FF00327BF1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				797C1D2B26124E0F0066CC32 /* User.swift */,
+				79133C0226177EE6009FE316 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +266,9 @@
 		796C740D2612472E00327BF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79133BA82614F346009FE316 /* Kingfisher.xcframework */,
+				791E7A052613A08400823815 /* Differentiator.xcframework */,
+				791E79E12613976400823815 /* RxDataSources.xcframework */,
 				796C740E2612472E00327BF1 /* RxBlocking.xcframework */,
 				796C74112612472E00327BF1 /* RxCocoa.xcframework */,
 				796C740F2612472E00327BF1 /* RxRelay.xcframework */,
@@ -351,12 +409,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79133BF9261775E5009FE316 /* UserProfileVC.swift in Sources */,
+				79133C0326177EE6009FE316 /* Profile.swift in Sources */,
+				79133C3B2617B13E009FE316 /* UserListDataModel.xcdatamodeld in Sources */,
+				79133C332617A3D9009FE316 /* UIImageView+Extension.swift in Sources */,
+				79133BFF26177C5B009FE316 /* UserProfileVM.swift in Sources */,
 				796C73B326123AB300327BF1 /* UserListVC.swift in Sources */,
 				796C73AF26123AB300327BF1 /* AppDelegate.swift in Sources */,
 				796C73B126123AB300327BF1 /* SceneDelegate.swift in Sources */,
+				79133C2826178BF7009FE316 /* AboutViewCell.swift in Sources */,
 				796C73ED261242CE00327BF1 /* UserRepo.swift in Sources */,
-				796C73E82612416600327BF1 /* UserListViewCell.swift in Sources */,
+				79133C2E261794FE009FE316 /* StatsViewCell.swift in Sources */,
+				796C73E82612416600327BF1 /* UserViewCell.swift in Sources */,
 				796C73F2261242DF00327BF1 /* UserListVM.swift in Sources */,
+				797C1D2C26124E0F0066CC32 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +598,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34M8J8YFT4;
 				INFOPLIST_FILE = GitHubUsers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -540,6 +608,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ndthanh.GitHubUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -550,7 +619,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34M8J8YFT4;
 				INFOPLIST_FILE = GitHubUsers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -558,6 +629,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ndthanh.GitHubUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -683,6 +755,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79133C392617B13E009FE316 /* UserListDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79133C3A2617B13E009FE316 /* UserListDataModel.xcdatamodel */,
+			);
+			currentVersion = 79133C3A2617B13E009FE316 /* UserListDataModel.xcdatamodel */;
+			path = UserListDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 796C73A326123AB300327BF1 /* Project object */;
 }
