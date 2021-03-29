@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserListVC.swift
 //  GitHubUsers
 //
 //  Created by ndthanh on 29/03/2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
