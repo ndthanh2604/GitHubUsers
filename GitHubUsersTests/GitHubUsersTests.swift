@@ -6,28 +6,37 @@
 //
 
 import XCTest
+import RxSwift
+
 @testable import GitHubUsers
 
 class GitHubUsersTests: XCTestCase {
+    var repo: UserRepoType!
+    var vm: UserProfileVM!
+    var disposeBag: DisposeBag!
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        repo = UserRepoMock()
+        vm = .init(repo: repo, id: 2)
+        disposeBag = DisposeBag()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDown() {
+        repo = nil
+        vm = nil
+        disposeBag = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    func testUserProfile() {
+        vm.sectionModels.subscribe {
+            switch $0.element?.first?.items.first {
+            case .basicInfoItem(item: let profile):
+                XCTAssert(profile.name == "hello")
+                XCTAssert(profile.followers == 3)
+            default: break
+            }
+        }.disposed(by: disposeBag)
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        vm.getProfile(id: 2)
     }
-
 }
